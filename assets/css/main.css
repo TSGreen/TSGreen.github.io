@@ -100,7 +100,7 @@ input, select, textarea {
 	body, input, textarea, select {
 		font-family: 'Open Sans', sans-serif;
 		line-height: 1.85em;
-		color: #888;
+		color: #000000;
 		font-weight: 300;
 		font-size: 13pt;
 	}
@@ -2008,10 +2008,15 @@ input, select, textarea {
 			text-shadow: 1px 1px 0px #fff;
 		}
 
+		.wrapper.style5 {
+			background-color: #f1f1f1;
+			text-align: left
+		}
+		
 		.wrapper.style4 {
 			background-color: #007aa5;
-			color: #003366;
-			text-shadow: -1px -1px 0px #181818;
+			color: #000000;
+			/*text-shadow: -1px -1px 0px #181818;*/
 		}
 
 			.wrapper.style4 h1, .wrapper.style4 h2, .wrapper.style4 h3, .wrapper.style4 h4, .wrapper.style4 h5, .wrapper.style4 h6 {
@@ -2047,7 +2052,7 @@ input, select, textarea {
 		cursor: default;
 		height: 3.5em;
 		line-height: 3.5em;
-		text-shadow: -1px -1px 0px #007aa5;
+		text-shadow: -0.025em -0.025em 0px #007aa5;
 
 	}
 
@@ -2137,7 +2142,7 @@ input, select, textarea {
 			}
 
 	#contact footer {
-		font-size: 0.9em;
+		font-size: 1em;
 	}
 
 /* Copyright */
